@@ -1,1 +1,9 @@
-rrr
+
+指令（英文版）	指令（中文版）	功能说明	备注
+git clone ..	git 克隆 ..	克隆一个项目代码库到本地（对应于svn的checkout）	在非版本库目录下右键
+git create ..	git 在这里创建新版本	 	在非版本库目录下右键
+git sync ..	git 同步 ..	弹出对话框，用于同步两个版本库	在版本库目录下右键
+pull	拉取	将远程版本库拉到本地版本库	git sync 弹出的对话框
+push	推送	将本地版本库推送到远程版本库	git sync 弹出的对话框
+git commit ..	git 提交 ..	提交到本地版本库，成功后弹出对话框可以推送到远程版本库	在版本库目录下右键
+TortoiseGit	TortoiseGit	弹出更多菜单，跟tortoisesvn类似	在版本库目录下右键
